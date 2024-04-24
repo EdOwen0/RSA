@@ -74,6 +74,7 @@ void decrypt()
     for (auto i : msg)
         std::cout << static_cast<char>(mp::pow(i, d) % n);
     */
+    // only does one letter right now
     std::cout << static_cast<char>(mp::pow(mp::cpp_int(input), d) % n)  << std::endl;
 
 }
