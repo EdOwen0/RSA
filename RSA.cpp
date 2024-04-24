@@ -9,10 +9,10 @@
 
 
 // to increase the size of the primes you can use
-// change the data type from mp::cpp_int(64bit)
-// to a custom type (128bit or above)
-// this is because the decrypt processes 
-// raises a large number to another large number
+// change the data type from int(64bit)
+// to a custom type (cpp_int above 128 bit )
+// this is because the decrypt, encrypt and keygen processes 
+// raises a large numbers to more large numbers
 // easily exceding 64bit limits
 
 namespace mp = boost::multiprecision;
